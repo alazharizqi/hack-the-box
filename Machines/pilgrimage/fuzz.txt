@@ -1,0 +1,3 @@
+fuzzing subdomain flag : ffuf -u http://pilgrimage.htb -w /usr/share/wordlists/seclists/Discovery/DNS/combined_subdomains.txt -H "Host: FUZZ.pilgrimage.htb" -fl=199
+fuzzing directories : ffuf -u http://pilgrimage.htb/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-directories-lowercase.txt
+fuzzing files : ffuf -u http://pilgrimage.htb/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-files-lowercase.txt
