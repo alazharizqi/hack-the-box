@@ -1,0 +1,2 @@
+user : 275a0c930bff16f41231af92b12d79d6
+root : durung cok
