@@ -1,0 +1,132 @@
+type=USER_AUTH msg=audit(1597199304.778:85): pid=2520 uid=1002 auid=0 ses=1 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? term
+inal=tty1 res=success'                                                                                                                                                                        
+type=USER_ACCT msg=audit(1597199304.778:86): pid=2520 uid=1002 auid=0 ses=1 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=tty1 re
+s=success'                                                                                                                                                                                    
+type=CRED_ACQ msg=audit(1597199304.778:87): pid=2520 uid=1002 auid=0 ses=1 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=tty
+1 res=success'                                                                                                                                                                                
+type=USER_START msg=audit(1597199304.778:88): pid=2520 uid=1002 auid=0 ses=1 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_mail,pam_limits,pam_tty_audit,pam_permit,pam_umask,pam_unix
+,pam_systemd acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=tty1 res=success'                                                                                                
+type=USER_END msg=audit(1597199317.622:91): pid=2520 uid=1002 auid=0 ses=1 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_mail,pam_limits,pam_tty_audit,pam_permit,pam_umask,pam_unix,
+pam_systemd acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=tty1 res=success'                                                                                                 
+type=CRED_DISP msg=audit(1597199317.622:92): pid=2520 uid=1002 auid=0 ses=1 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=tty1 res=s
+uccess'                                                                                                                                                                                       
+type=USER_AUTH msg=audit(1597270708.857:228): pid=2764 uid=1002 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=?
+ terminal=pts/0 res=success'                                                                                                                                                                  
+type=USER_ACCT msg=audit(1597270708.857:229): pid=2764 uid=1002 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=pt
+s/0 res=success'                                                                                                                                                                              
+type=CRED_ACQ msg=audit(1597270708.857:230): pid=2764 uid=1002 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? termina
+l=pts/0 res=success'                                                                                                                                                                          
+type=USER_START msg=audit(1597270708.861:231): pid=2764 uid=1002 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_mail,pam_limits,pam_permit,pam_umask,pam_unix,pam_syst
+emd acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=pts/0 res=success'                                                                                                        
+type=USER_AUTH msg=audit(1597270722.349:232): pid=2779 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'                                                                                                                                                                 
+type=USER_ACCT msg=audit(1597270722.353:233): pid=2779 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'                                                                                                                                                                             
+type=USER_AUTH msg=audit(1597270864.485:240): pid=2867 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'                                                                                                                                                                 
+type=USER_ACCT msg=audit(1597270864.485:241): pid=2867 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'                                                                                                                                                                             
+type=CRED_REFR msg=audit(1597270864.537:247): pid=2888 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'                                                                                                                                                                           
+type=USER_START msg=audit(1597270864.537:248): pid=2888 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'                                                                                                                                          
+type=USER_END msg=audit(1597270864.541:249): pid=2888 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'                                                                                                                                           
+type=CRED_DISP msg=audit(1597270864.541:250): pid=2888 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'                                                                                                                                                                                   
+type=USER_AUTH msg=audit(1597270899.797:253): pid=2911 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'                                                                                                                                                                 
+type=USER_ACCT msg=audit(1597270899.797:254): pid=2911 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'                                                                                                                                                                             
+type=CRED_REFR msg=audit(1597270899.897:260): pid=2929 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'                                                                                                                                                                           
+type=USER_START msg=audit(1597270899.897:261): pid=2929 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'                                                                                                                                          
+type=USER_END msg=audit(1597270899.901:262): pid=2929 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+ type=CRED_DISP msg=audit(1597270899.901:263): pid=2929 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_AUTH msg=audit(1597270919.981:266): pid=2941 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1597270919.981:267): pid=2941 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'
+type=CRED_REFR msg=audit(1597270920.073:273): pid=2959 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'
+type=USER_START msg=audit(1597270920.073:274): pid=2959 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1597270920.077:275): pid=2959 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=CRED_DISP msg=audit(1597270920.077:276): pid=2959 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_AUTH msg=audit(1597271039.477:279): pid=3007 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1597271039.477:280): pid=3007 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'
+type=CRED_REFR msg=audit(1597271039.613:286): pid=3029 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'
+type=USER_START msg=audit(1597271039.613:287): pid=3029 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1597271039.617:288): pid=3029 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=CRED_DISP msg=audit(1597271039.617:289): pid=3029 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_AUTH msg=audit(1597271084.121:298): pid=3048 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1597271084.121:299): pid=3048 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'
+type=CRED_REFR msg=audit(1597271084.165:305): pid=3062 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'
+type=USER_START msg=audit(1597271084.169:306): pid=3062 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1597271084.169:307): pid=3062 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=CRED_DISP msg=audit(1597271084.169:308): pid=3062 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_AUTH msg=audit(1597271116.377:311): pid=3087 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1597271116.377:312): pid=3087 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'
+type=CRED_REFR msg=audit(1597271116.453:318): pid=3103 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'
+type=USER_START msg=audit(1597271116.457:319): pid=3103 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1597271116.457:320): pid=3103 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+ type=CRED_DISP msg=audit(1597271116.457:321): pid=3103 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_AUTH msg=audit(1597271160.917:324): pid=3127 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1597271160.917:325): pid=3127 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'
+type=CRED_REFR msg=audit(1597271161.009:331): pid=3143 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'
+type=USER_START msg=audit(1597271161.013:332): pid=3143 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1597271161.017:333): pid=3143 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=CRED_DISP msg=audit(1597271161.017:334): pid=3143 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_AUTH msg=audit(1597271315.669:343): pid=3223 uid=1001 auid=1002 ses=12 msg='op=PAM:authentication grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? ter
+minal=/dev/pts/0 res=success'
+type=USER_ACCT msg=audit(1597271315.669:344): pid=3223 uid=1001 auid=1002 ses=12 msg='op=PAM:accounting grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/p
+ts/0 res=success'
+type=CRED_REFR msg=audit(1597271315.765:350): pid=3245 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit,pam_cap acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev
+/pts/0 res=success'
+type=USER_START msg=audit(1597271315.765:351): pid=3245 uid=0 auid=1002 ses=12 msg='op=PAM:session_open grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo
+" hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=USER_END msg=audit(1597271315.769:352): pid=3245 uid=0 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_permit,pam_umask,pam_unix acct="mrb3n" exe="/usr/bin/sudo"
+ hostname=? addr=? terminal=/dev/pts/0 res=success'
+type=CRED_DISP msg=audit(1597271315.769:353): pid=3245 uid=0 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/sudo" hostname=? addr=? terminal=/dev/pts/0 r
+es=success'
+type=USER_END msg=audit(1597271613.873:374): pid=2764 uid=1002 auid=1002 ses=12 msg='op=PAM:session_close grantors=pam_env,pam_env,pam_mail,pam_limits,pam_permit,pam_umask,pam_unix,pam_syste
+md acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=pts/0 res=success'
+type=CRED_DISP msg=audit(1597271613.873:375): pid=2764 uid=1002 auid=1002 ses=12 msg='op=PAM:setcred grantors=pam_permit acct="mrb3n" exe="/usr/bin/su" hostname=academy addr=? terminal=pts/0
+ res=success'
+type=USER_LOGIN msg=audit(1597318344.660:2264): pid=25450 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="mrb3n" exe="/usr/sbin/sshd" hostname=? addr=10.10.14.4 terminal=sshd res=fa
+iled'
+type=USER_LOGIN msg=audit(1597318344.804:2265): pid=25450 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="mrb3n" exe="/usr/sbin/sshd" hostname=? addr=10.10.14.4 terminal=sshd res=fa
+iled'
+type=USER_AUTH msg=audit(1597318348.528:2266): pid=25450 uid=0 auid=4294967295 ses=4294967295 msg='op=PAM:authentication grantors=? acct="mrb3n" exe="/usr/sbin/sshd" hostname=10.10.14.4 addr
+=10.10.14.4 terminal=ssh res=failed'
+type=USER_LOGIN msg=audit(1597318350.404:2267): pid=25450 uid=0 auid=4294967295 ses=4294967295 msg='op=login acct="mrb3n" exe="/usr/sbin/sshd" hostname=? addr=10.10.14.4 terminal=sshd res=fa
+iled'
