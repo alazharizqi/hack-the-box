@@ -1,5 +1,5 @@
 path: /usr/bin/cp  
-args: /bin/bash / tmp/konzzz
+args: /usr/bin/bash /tmp/konz
 
 path: /usr/bin/chmod
-args: u+s /tmp/konzzz
+args: u+s /tmp/konz
