@@ -4,7 +4,7 @@
 
 set_time_limit (0);
 $VERSION = "1.0";
-$ip = '10.10.14.84';
+$ip = '10.10.14.5';
 $port = 2424;
 $chunk_size = 1400;
 $write_a = null;
