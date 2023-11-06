@@ -1,2 +1,0 @@
-"+load_extension(char(46,47,99))+"
-"+load_extension(./c)+"

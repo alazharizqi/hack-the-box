@@ -1,1 +1,0 @@
-mysql --host=db --user=root --password=root cacti -e "select * from user_auth"

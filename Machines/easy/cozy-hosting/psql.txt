@@ -1,2 +1,0 @@
-psql -h localhost -p 5432 -d cozyhosting -U postgres
-pw:Vg&nvzAQ7XxR

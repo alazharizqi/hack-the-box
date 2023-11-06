@@ -1,2 +1,0 @@
-user : helpme@helpme.com
-password : godhelpmeplz

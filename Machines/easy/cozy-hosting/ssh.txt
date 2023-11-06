@@ -1,2 +1,0 @@
-ssh josh@cozyhosting.htb
-manchesterunited

@@ -1,2 +1,0 @@
-user:metalytics
-pw:An4lytics_ds20223#
