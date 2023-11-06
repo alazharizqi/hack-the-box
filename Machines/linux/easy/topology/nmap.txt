@@ -1,0 +1,31 @@
+# Nmap 7.94 scan initiated Fri Aug  4 01:19:40 2023 as: nmap -sC -sV -oN nmap.txt -p- 10.10.11.217
+Nmap scan report for latex.topology.htb (10.10.11.217)
+Host is up (0.042s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.7 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   3072 dc:bc:32:86:e8:e8:45:78:10:bc:2b:5d:bf:0f:55:c6 (RSA)
+|   256 d9:f3:39:69:2c:6c:27:f1:a9:2d:50:6c:a7:9f:1c:33 (ECDSA)
+|_  256 4c:a6:50:75:d0:93:4f:9c:4a:1b:89:0a:7a:27:08:d7 (ED25519)
+80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
+|_http-server-header: Apache/2.4.41 (Ubuntu)
+|_http-title: Index of /
+| http-ls: Volume /
+|   maxfiles limit reached (10)
+| SIZE  TIME              FILENAME
+| -     2023-01-17 12:26  demo/
+| 1.0K  2023-01-17 12:26  demo/fraction.png
+| 1.1K  2023-01-17 12:26  demo/greek.png
+| 1.1K  2023-01-17 12:26  demo/sqrt.png
+| 1.0K  2023-01-17 12:26  demo/summ.png
+| 3.8K  2023-06-12 07:37  equation.php
+| 662   2023-01-17 12:26  equationtest.aux
+| 17K   2023-01-17 12:26  equationtest.log
+| 0     2023-01-17 12:26  equationtest.out
+| 28K   2023-01-17 12:26  equationtest.pdf
+|_
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug  4 01:20:08 2023 -- 1 IP address (1 host up) scanned in 27.54 seconds

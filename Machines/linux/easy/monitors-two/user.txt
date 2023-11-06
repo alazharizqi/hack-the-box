@@ -1,0 +1,3 @@
+marcus:$2y$10$/X1gmYPt.JfcZhGhnpRtSeySeMSWd.NJfEdnNHqo6y8tCgZmEFmia:funkymonkey
+admin:$2y$10$kPskfHU6r7hblKYwBykhGO/5C.GeKBkWNsZeKQSgacE0iRr3e0mFK
+guest:$2y$10$ler4R8Ln6d6nTqVLcUp6VOcDSOxmBDIm3TVChmI7MOzrg47RbCuse
