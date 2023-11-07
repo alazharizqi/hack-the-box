@@ -1,1 +1,0 @@
-# create program to generate random number
