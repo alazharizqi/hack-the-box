@@ -1,17 +1,3 @@
-# def decryption(msg):
-    # enc = []
-    # for char in msg:
-        # char = char - 18
-        # char = 179 * (char-18) % 256
-        # enc.append(char)
-    # return bytes(enc)
-# 
-# with open('msg.enc') as file:
-    # dec = bytes.fromhex(file.read())
-# 
-# enc = decryption(dec)
-# print(enc)
-
 import string
 
 def decryption(ct):
