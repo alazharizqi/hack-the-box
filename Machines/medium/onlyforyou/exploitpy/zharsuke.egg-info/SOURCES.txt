@@ -1,0 +1,5 @@
+setup.py
+zharsuke.egg-info/PKG-INFO
+zharsuke.egg-info/SOURCES.txt
+zharsuke.egg-info/dependency_links.txt
+zharsuke.egg-info/top_level.txt
