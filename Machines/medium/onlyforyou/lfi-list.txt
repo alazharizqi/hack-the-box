@@ -1,0 +1,5 @@
+/etc/passwd
+/etc/nginx/nginx.conf
+/etc/nginx/sites-enabled/default
+/var/www/only4you.htb/app.py
+/var/www/only4you.htb/form.py

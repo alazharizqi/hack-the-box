@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Server: nginx/1.18.0 (Ubuntu)
+Date: Tue, 14 Nov 2023 17:26:44 GMT
+Content-Type: application/octet-stream
+Content-Length: 460
+Connection: keep-alive
+Content-Disposition: attachment; filename=default
+Last-Modified: Sun, 04 Dec 2022 21:54:52 GMT
+Cache-Control: no-cache
+ETag: "1670190892.3086803-460-3283749922"
+
+server {
+    listen 80;
+    return 301 http://only4you.htb$request_uri;
+}
+
+server {
+	listen 80;
+	server_name only4you.htb;
+
+	location / {
+                include proxy_params;
+                proxy_pass http://unix:/var/www/only4you.htb/only4you.sock;
+	}
+}
+
+server {
+	listen 80;
+	server_name beta.only4you.htb;
+
+        location / {
+                include proxy_params;
+                proxy_pass http://unix:/var/www/beta.only4you.htb/beta.sock;
+        }
+}
