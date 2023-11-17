@@ -1,0 +1,8 @@
+gofer.htb
+proxy.gofer.htb
+
+dir brute force with specify method
+ffuf -u http://proxy.gofer.htb/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-files.txt -fl 15 -X POST -mc 200
+ffuf -u http://proxy.gofer.htb/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-files.txt -fl 15 -X PUT -mc 200
+ffuf -u http://proxy.gofer.htb/FUZZ -w /usr/share/wordlists/seclists/Discovery/Web-Content/raft-large-files.txt -fl 15 -X DELETE -mc 200
+Found: index.php
