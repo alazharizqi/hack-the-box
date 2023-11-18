@@ -1,0 +1,7 @@
+first attempt
+user: 0x555555559ac0
+note: 0x555555559af0
+
+second attempt after delete user
+user: 0x555555559ac0
+note: 0x555555559ac0
