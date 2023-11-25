@@ -1,0 +1,6 @@
+GET pethod
+intentions.htb/galery
+intentions.htb/admin
+intentions.htb/api/v1/gallery/user/feed
+
+intentions.htb/api/v1/gallery/user/genres => with POST method
