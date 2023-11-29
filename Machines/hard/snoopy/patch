@@ -1,0 +1,12 @@
+diff --git a/symlink b/renamed-symlink
+similarity index 100%
+rename from symlink
+rename to renamed-symlink
+--
+diff --git /dev/null b/renamed-symlink/authorized_keys
+new file mode 100644
+index 0000000..039727e
+--- /dev/null
++++ b/renamed-symlink/authorized_keys
+@@ -0,0 +1,1 @@
++ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCKpYFUrLTSO5q0+LJtrxachAuuW1Il6zsTMWWi62A9/1v8oV0SBU+SVYNiE8PAjJ9OrwUIJst3b1eZ4RIkDRdLcQoF4hq3PIASl9scrTHil6KXMSyc2bEsuChEIKb6vtCYIQFADtjY85lfij/dvFVlm4q+Bvzt3IgP5GMtujRLgtcRV5DPbo9J0m6zUXn10WYmuGcu75Caa4soa1k3OEcwYRi/PAzPgaXjQNfmtbk42u/yHZ1kkMOCRImESkQlLhncxjDV3aMsIWnN7O8vF1kAsgePh1WfH+nbEcwiidrzoCEHgC9n6Zl/6mhzo52G1hslIFA1nGF6uV+yIPi2RsM2vxWfP8/K36bLsdhXCI7RMo8/YHg/xbOLow7ZHU1kjtHn9QSRn6LSvpCqpt874j0/c7iwi1jfLTWgXfQyQ9Njd5sy8Ea8okrzzOyOOUDYzG4bRinohcUBKXM+Hvf6GpkYOmTKbwFtL+psbRSjkSFp/QGX/QKcCl9lJw9/YZ9nEJM= zharsuke@box
