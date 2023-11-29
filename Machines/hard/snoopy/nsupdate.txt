@@ -1,0 +1,6 @@
+nsupdate -k rndc.key nsupdate.txt
+server 10.10.11.212
+zone snoopy.htb
+update add mail.snoopy.htb 86400 A 10.10.14.19
+send
+quit
